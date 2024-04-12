@@ -1,0 +1,72 @@
+.flex-container
+{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gamescreen
+{
+    min-height: 100px;
+    min-width: 600px;
+    text-align: center;
+    padding: 200px;
+    border: 5px solid black;
+}
+.navbar
+{
+    min-height: 100px;
+    min-width: 200px;
+    margin-top: 30px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: turquoise;
+    align-items: center;
+    justify-content: center;
+}
+.infoscreen
+{
+    min-height: 100px;
+    margin-top:20px;
+}
+
+.northBtn
+{
+    text-align: top;
+}
+
+.southBtn
+{
+   text-align: bottom;
+}
+
+.westBtn
+{
+    left:auto;
+}
+
+.eastBtn
+{
+    right: auto;
+}
+
+.button {
+    background-color: #04AA6D; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+table, th, td
+{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}

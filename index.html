@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats and Zombies</title>
+    <script src="Scripts/index.js"></script>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body style="background-image: linear-gradient(grey, black)" onload="Initialize()">
+    <div class="flex-container">
+        <div class="gamescreen" id="gamescreen" style="background: url(Res/meadow.jpg) center; background-repeat: no-repeat;
+        background-size: 100% 100%;">
+        </div>
+        <div class="navbar bottomrow">
+                <button type="button" onclick="Movement('north')" class="button northBtn" id="northBtn">North</button>
+                <button type="button" onclick="Movement('south')" class="button southBtn" id="southBtn">South</button>
+                <button type="button" onclick="Movement('west')" class="button westBtn" id="westBtn">West</button>
+                <button type="button" onclick="Movement('east')" class="button eastBtn" id="eastBtn">East</button>
+        </div>
+        <div class="infoscreen bottomrow">
+            <table class="map" id="map">
+        </div>
+    </div>
+</body>
+</html>
